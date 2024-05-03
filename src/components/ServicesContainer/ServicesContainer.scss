@@ -1,0 +1,279 @@
+.sectionHands3 {
+  width: 100%;
+  height: 37.5rem;
+  background-image: url("../../../public/img/group-people-working-out-business-plan-office.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  div {
+    z-index: 2;
+  }
+}
+
+#card3{
+  margin-top: 2.6rem;
+}
+.contacto3 {
+  height: 69px;
+  width: 44%;
+  font-size: 2.875rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding-left: 5%;
+  z-index: 2;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 69px;
+}
+
+.spanTransform3 {
+  color: #fbd2f6;
+  font-weight: 600;
+}
+
+.sectionHands3::after {
+  background: radial-gradient(
+    50% 50% at 36.56% 50%,
+    rgba(3, 3, 3, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  z-index: 1;
+  width: 100%;
+  height: 37.5rem;
+  position: absolute;
+  content: "";
+}
+
+.servCards {
+  margin-bottom: 5rem;
+  .title {
+    text-align: center;
+    padding: 3rem;
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 43.5px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    justify-content: center;
+    text-align: left;
+    align-items: stretch;
+
+    .card {
+      width: 100%;
+      border-radius: 10px;
+      border: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      justify-content: center;
+      align-items: flex-start;
+
+      img {
+        height: 50px;
+        margin: 1rem;
+      }
+      h6 {
+        font-family: Poppins;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 28.5px;
+        margin: 1rem 0.5rem;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        text-align: left;
+        margin: 1rem 0.5rem;
+      }
+    }
+    .card2 {
+      width: 100%;
+      border-radius: 10px;
+      border: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      margin-top: 1rem;
+      align-items: flex-start;
+
+      img {
+        height: 50px;
+        margin-left: auto;
+        margin-bottom: 1rem;
+      }
+
+      h6 {
+        font-family: Poppins;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 28.5px;
+        margin: 1rem 0.5rem;
+        text-align: right;
+        margin-left: auto;
+      }
+      
+      p {
+        font-family: Poppins;
+        text-align: right;
+        margin-left: auto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        margin: 1rem 0.5rem;
+      }
+    }
+  }
+}
+
+.sectionRrhh3 {
+  position: relative;
+  width: 100%;
+  background-image: url("../../../img/p23.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-position: right ;
+ 
+  padding: 5rem 0;
+
+  padding-left: 10%;
+  .parrapfRrhh3 {
+    width: 80%;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.22px;
+    text-align: left;
+    color: white;
+
+    z-index: 2;
+  }
+  .spanRrhh3 {
+    font-family: Poppins;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 55.5px;
+    z-index: 2;
+    text-align: left;
+    color: rgba(251, 210, 246, 1);
+  }
+  .spanRrhh4 {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    z-index: 2;
+
+    color: rgb(255, 255, 255);
+  }
+}
+.sectionRrhh3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.submitButton2 {
+    border: solid 2px hsla(280, 59%, 61%, 1);
+    background-color: hsla(280, 59%, 61%, 1);
+    padding: 0.5rem 1.25rem;
+    width: auto;
+    border-radius: 1.25rem;
+    color: white;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: auto;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 500;
+
+  
+  }
+
+  .submitButton2{
+    display: inline;
+  }
+
+
+@media (max-width: 768px) {
+  .sectionHands3 {
+    width: 100%;
+    height: 37.5rem;
+    background-image: url("../../../public/img/top-view-females-shaking-hands-min.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    div {
+      z-index: 2;
+      text-align: center; /* Centrar el contenido horizontalmente */
+    }
+  }
+
+  .contacto3 {
+    width: 90%;
+
+    font-size: 36px;
+  }
+  .servCards {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .servCards {
+    margin-bottom: 5rem;
+    .title {
+      text-align: center;
+      padding: 3rem;
+      font-family: Poppins;
+      font-size: 29px;
+      font-weight: 500;
+      line-height: 43.5px;
+    }
+    .container {
+      .card,
+      .card2 {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-left: 10%;
+        justify-content: center;
+        margin: auto;
+      }
+      .card2 {
+        margin-top: 0;
+        img {
+          height: 50px;
+          margin-left: 0;
+          margin-bottom: 0;
+        }
+        h6 {
+          margin: 1rem 0.5rem;
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

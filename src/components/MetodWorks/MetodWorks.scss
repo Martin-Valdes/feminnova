@@ -1,0 +1,643 @@
+.worksContainer{
+    width: 100%;
+    height: 100%;
+    .metodWork{
+        width: 100%;
+        height: 37.5rem;
+        background-image: url("../../../img/metodologia.webp");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            font-size: 2.3125rem;
+            color: #ffffff;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            padding-left: 8%;
+            z-index: 2;
+        }
+
+        .metodParrapf{
+            width: 30%;
+            color: white;
+            z-index: 2;
+            font-family: Poppins;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 28.5px;
+            text-align: left;
+            padding-left: 8%;
+        }
+        .standardText{
+            font-family: Poppins;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 28.5px;
+            text-align: left;
+            color: rgba(251, 210, 246, 1);
+
+        }
+
+    }
+    .metodWork::after{
+        background: radial-gradient(50% 50% at 36.56% 50%, rgba(3, 3, 3, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%);
+            z-index: 1;
+            width: 100%;
+            height: 37.5rem;
+            position: absolute;
+            content: "";
+    }
+    .line{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 3.75rem;
+        padding-bottom: 6.25rem;
+        h2{
+            font-family: Poppins;
+            font-size: 29px;
+            font-weight: 500;
+            line-height: 43.5px;
+            text-align: left;
+        }
+        .imagenesText{
+            display: flex;
+            margin-top: 3.125rem;
+            width: 80%;
+            
+            .sectionLeft{
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                height: 87.5rem;
+                    display: grid;
+                .parrapfOne{
+                    text-align: right;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    display: grid;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 0;
+                        width: 100%;
+                        gap: 0;
+                        grid-template-columns: auto;
+                        grid-template-rows:  repeat(4,12.5rem);
+                        grid-template-areas:
+                        "sourcing  "
+                        
+                        "group"
+                        
+                        "selection"
+                        
+                        "ofer"
+                        ;
+                        align-items: start;
+                        row-gap: 11.875rem;
+                        
+                        .sourcing{
+                            grid-area: sourcing;
+                            align-items: end;
+                        
+                        }
+                        .group{
+                            grid-area: group;
+                        }
+                        .selection{
+                        grid-area: selection;
+                        }
+                        .ofer{
+                            grid-area: ofer;
+                        }
+                    .groupItem{
+                        display: flex;
+                            justify-content: start;
+                            gap: 1.25rem;
+                            flex-direction: row;
+                            align-items: start;
+
+                        .new{
+                            display: flex;
+                            justify-content: end;
+                            align-items: end;
+                            flex-direction: column;
+                            
+                            .titleSo{
+                                margin-top: 1.875rem;
+                            }
+                        }
+                        .titleParrapf{     
+                            font-family: Poppins;
+                            font-size: 23px;
+                            font-weight: 500;
+                            line-height: 34.5px;
+                            text-align: left; 
+                        }
+                        .descriptionParrapf{
+                            font-family: Poppins;
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 22.5px;
+                            text-align: right;
+                        }    
+                    }
+                }
+            }
+        }
+        .sectionImg{
+            height:80%;
+           padding: 0 3.125rem 0 3.125rem;
+            margin-top: 1.875rem;
+            .imgDiv{
+                display: flex;
+                height:100%;
+                align-items: flex-start;
+                justify-content: center;
+
+                .point{
+                    margin-top: 0;
+                    position: absolute;
+                }
+                .line{
+                    margin: 0;
+                    position: relative;
+                    z-index: -1;
+                   
+                }
+            }
+        }
+        .sectionRigth{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            
+           .newContainer{
+            height: 93%;
+            display: grid;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 12.5rem;
+            
+            grid-template-columns: auto;
+            grid-template-rows:  repeat(3,12.5rem);
+            grid-template-areas:
+            
+            "screen"
+            
+            "entrev"
+            
+            "present"
+            
+            ;
+            align-items: start;
+            row-gap: 11.25rem;
+            .screen{
+                grid-area: screen;
+                align-items: end;
+            
+            }
+            .entrev{
+                grid-area: entrev;
+            }
+            .present{
+            grid-area: present;
+            }
+             .groupItem{
+                display: flex;
+                justify-content: start;
+                gap: 1.875rem;
+                align-items: start;
+                text-align: start;
+                .new{
+                    display: flex;
+                    justify-content: start;
+                    align-items: start;
+                    flex-direction: column;
+                    margin-top: 1.875rem;
+                    
+                }
+                .titleParrapf{     
+                    font-family: Poppins;
+                    font-size: 23px;
+                    font-weight: 500;
+                    line-height: 34.5px;
+                    text-align: left; 
+                }
+                .descriptionParrapf{
+                    font-family: Poppins;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 22.5px;
+                    text-align: left;
+                }  
+            }
+           }
+           
+        }
+    }
+    .sectionRrhh{
+        width: 100%;
+        height: 37.5rem;
+        background-image: url("../../../img/frame82.webp");
+        background-position:bottom ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 9.375rem;
+        .parrapfRrhh{
+            width: 50%;
+            font-family: Poppins;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 37.22px;
+            text-align: left;
+            color: white;
+        }
+        .spanRrhh{
+            font-family: Poppins;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 37.22px;
+            text-align: left;
+            color: rgba(251, 210, 246, 1);
+
+
+        }
+        button{
+            width: 12.5rem;
+            width: 10rem;
+            height: 2.5625rem;
+            margin-top: 1.875rem;
+            padding: 6px 18px 6px 18px;
+            gap: 10px;
+            border-radius: .625rem;
+            opacity: 0px;
+            background: rgba(174, 96, 214, 1);
+            border-style: none;
+            font-family: Poppins;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 28.5px;
+            text-align: center;
+            color: white;
+
+        }
+    }
+}
+
+@media (max-width: 56.25rem){
+    .worksContainer{
+        width: 100%;
+        height: 100%;
+        .metodWork{
+            width: 100%;
+            height: 37.5rem;
+            background-image: url("../../../img/metodologia.webp");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            background-position: 65% 10% ;
+            h1{
+                font-family: Poppins;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 54px;
+                text-align: left;
+                padding-left: 8%;
+                z-index: 2;
+            }
+    
+            .metodParrapf{
+                width: 100%;
+                color: white;
+                z-index: 2;
+                font-family: Poppins;
+                font-size: 19px;
+                font-weight: 500;
+                line-height: 28.5px;
+                text-align: left;
+                padding-left: 8%;
+                padding-right: .625rem;
+            }
+            .standardText{
+                font-family: Poppins;
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 28.5px;
+                text-align: left;
+                color: rgba(251, 210, 246, 1);
+    
+            }
+    
+        }
+        .metodWork::after{
+            background: radial-gradient(50% 50% at 36.56% 50%, rgba(3, 3, 3, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%);
+                z-index: 1;
+                width: 100%;
+                height: 37.5rem;
+                position: absolute;
+                content: "";
+        }   
+        .line{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 1.875rem;
+            padding: .625rem;
+            height: 100%;
+            margin-bottom: 9.375rem;
+            h2{
+                font-family: Poppins;
+                font-size: .9375rem;
+                font-weight: 500;
+                line-height: 22.5px;
+                text-align: center;
+            }
+            .imagenesText{
+                display: grid;
+                margin-top: 1.25rem;
+                height: 100%;
+                width:100%;
+                padding-bottom: 6.25rem;
+                grid-template-columns: 49% 2% 49%;
+                grid-template-rows:  repeat(7,12.5rem);
+                grid-template-areas:
+                "sourcing  img  n"
+                "q img screening "
+                "group img w"
+                "s img entrevista"
+                "selection img l"
+                "o img client"
+                "ofer img j"
+                ;
+                
+                .sectionLeft{
+                    width: 50%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 1.25rem;
+                    
+                    .parrapfOne{
+                        text-align: right;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column;
+                        height: 100%;
+                        
+                        .groupItem{
+                            display: flex;
+                            justify-content: end;
+                            gap: 0;
+                            flex-direction: column;
+                            align-items: end;
+                            flex-direction: column-reverse;
+                            .new{
+                                display: flex;
+                                justify-content: end;
+                                align-items: end;
+                                gap: 0;
+                                padding-bottom:0;
+                                .titleSo{
+                                   margin: 0;
+                                }
+                                
+                            }
+                            .titleParrapf{     
+                                font-family: Poppins;
+                                font-size: 15px;
+                                font-weight: 500;
+                                line-height: 22.5px;
+                                text-align: right;
+                                margin: 0;
+                            }
+                            .descriptionParrapf{
+                                font-family: Poppins;
+                                font-size: 12px;
+                                font-weight: 400;
+                                line-height: 18px;
+                                text-align: right;
+                                margin: 0;
+                            }
+                            img{
+                                width: 1.875rem;
+                            }  
+                        }
+                    }
+                }
+                .sectionLeft{
+                    
+                    margin: 0;
+                    height: 87.5rem;
+                    display: grid;
+                    justify-content: space-around;
+                    width: 100%;
+                    padding-right: 1.25rem;
+                    .parrapfOne{
+                        display: grid;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 0;
+                        width: 100%;
+                        gap: 0;
+                        grid-template-columns: auto;
+                        grid-template-rows:  repeat(7,12.5rem);
+                        grid-template-areas:
+                        "sourcing  "
+                        "sourcing"
+                        "group"
+                        "group"
+                        "selection"
+                        "selection"
+                        "ofer"
+                        ;
+                        align-items: start;
+                        row-gap: 1.75rem;
+                        column-gap: .625rem;
+                        .sourcing{
+                            grid-area: sourcing;
+                            align-items: end;
+                        
+                        }
+                        .group{
+                            grid-area: group;
+                        }
+                        .selection{
+                        grid-area: selection;
+                        }
+                        .ofer{
+                            grid-area: ofer;
+                        }
+                    }
+    
+                }
+            }
+            .sectionImg{
+                display: flex;
+                height: 100%;
+                padding:0;
+                margin: 0;
+                position: static;
+                grid-area: img;
+                .imgDiv{
+                    display: flex;
+                    height: 100%;
+                    width: 1.25rem;
+                    justify-content: center;
+                    align-items: center;
+                    height: 87.5rem;
+                    .point{
+                        margin: 0;
+                        position: absolute;
+                        height: 87.5rem;
+                        
+                    }
+                    .line{
+                        height: 1400px;
+                        width: 1.375rem;
+                        position: absolute;
+                        z-index: -1;
+                        margin: 0;
+                        padding: 0;
+                        grid-area: img;
+                    }
+                }
+            }
+            .sectionRigth{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 1.25rem;
+               .newContainer{
+                    display: grid;
+                    margin-top: 1.875rem;
+                    margin: 0;
+                    gap: 0;
+                    grid-template-columns: auto;
+                    grid-template-rows:  repeat(7,12.5rem);
+                    grid-template-areas:
+                    ".  "
+                    "screen"
+                    "screen"
+                    "entrev"
+                    "entrev"
+                    "present"
+                    "present"
+                    ;
+                    align-items: start;
+                    row-gap: 1.5625rem;
+                    column-gap: .625rem;
+                    .screen{
+                        grid-area: screen;
+                        align-items: end;
+                    
+                    }
+                    .entrev{
+                        grid-area: entrev;
+                    }
+                    .present{
+                    grid-area: present;
+                    }
+                    
+
+                .groupItem{
+                    display: flex;
+                    gap: 0;
+                    align-items: start;
+                    flex-direction: column;
+                    .new{
+                        display: flex;
+                        justify-content: start;
+                        align-items: start;
+                        flex-direction: column;
+                        padding-bottom: 6.25rem;
+                        margin-top: 0;
+                        .titleSo{
+                            margin-top: 0;
+                        }
+                    }
+                    .titleParrapf{     
+                        font-family: Poppins;
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 22.5px;
+                        Text-align: left;
+                        margin: 0;
+                    }
+                    .descriptionParrapf{
+                        font-family: Poppins;
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        text-align: left;
+                    }  
+                    img{
+                        width: 1.875rem;
+                    }  
+                }
+                .screen{
+                    padding-top: 0;
+                }
+               }
+               
+            }
+            
+        }
+        .sectionRrhh{
+            width: 100%;
+            height: 24.6875rem;
+            background-image: url("../../../img/frame82.webp");
+            background-position:27% ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+        
+            padding: 1.875rem;
+            .parrapfRrhh{
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23.26px;
+                text-align: left;
+                color: white;
+                width: 95%;
+                
+            }
+            .spanRrhh{
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 23.26px;
+                text-align: left;
+                color: rgba(251, 210, 246, 1);    
+            }
+            button{
+                width: Fixed (158px)px;
+                height: 2.1875rem;
+                padding: 6px 18px 6px 18px;
+                gap: 10px;
+                border-radius: .625rem;
+                background: rgba(174, 96, 214, 1);
+                font-family: Poppins;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 22.5px;
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+}

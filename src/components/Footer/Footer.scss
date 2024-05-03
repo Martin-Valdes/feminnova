@@ -1,0 +1,112 @@
+.footerContainer {
+  background: rgba(174, 96, 214, 0.22);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.upSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.icoLogo {
+  width: 59px;
+  height: 74px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.newGroup {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.25rem;
+}
+
+.words {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  .work{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  a{
+    .wf{
+      line-height: .9375rem;
+    }
+    .wc{
+        line-height: 0;
+      }
+  }
+ 
+}
+}
+.wordsLinks {
+  text-decoration: none;
+}
+.wordsLinks p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: left;
+  color: black;
+  line-height: .9375rem;
+}
+
+.linked {
+  margin-left: 1rem;
+}
+
+.downSection {
+  text-align: center;
+  padding: 1rem 0; /* Añadido para espacio en la parte superior e inferior */
+}
+
+
+@media (max-width: 1200px) {
+  .upSection {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 818px) {
+  .upSection {
+    padding: 0 1rem;
+  }
+
+  .words {
+    padding: 1rem;
+    gap: .625rem;
+    .work{
+  display: flex;
+  flex-direction: row;
+  gap: .625rem;
+ .wf{
+  line-height: 0;
+ }
+ .wc{
+   line-height: 0;
+ }
+}
+  }
+
+  .wordsLinks p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.homeWords{
+  padding-right: .625rem;
+}
+

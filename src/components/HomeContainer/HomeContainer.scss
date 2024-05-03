@@ -1,0 +1,1075 @@
+
+  .homeContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .sectionHands{
+        width: 100%;
+        height: 37.5rem;
+        background-image: url("../../../img/personas-reunidas-centro-comunitario.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        
+        .liderando{
+            width: 100%;
+            height: 69px;
+            font-size: 2.875rem;
+            color: #FBD2F6;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            padding-left: 16.25rem;
+            padding-top: 5rem;
+            z-index: 2;
+        }
+        .spanTransform{
+            color: white;
+            font-weight: 400;
+        }
+    }
+    a{text-decoration: none;}
+    .sectionHands::after{
+        background: radial-gradient(50% 50% at 50% 50%, rgba(3, 3, 3, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+            z-index: 1;
+            width: 100%;
+            height: 37.5rem;
+            position: absolute;
+            content: "";
+    }
+    .sectionPink{
+        width: 100%;
+        height: 30.125rem;
+        background-color: rgba(251, 210, 246, 0.5);
+        display: flex;
+        align-items: center;
+        padding-left: 4.375rem;
+        .parrapfPink{
+            font-size: 2.5rem;
+            width: 49.6875rem;
+            height: 18.75rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+        }
+        .spanPink{
+            font-weight: 600;
+            line-height: 3.75rem;
+            text-align: left;
+        }
+    }
+    .sectionMision{
+        display: flex;
+        width: 100%;
+        height: 31.25rem;
+        justify-content: space-around;
+        align-items: center;
+        .sectionText{
+            display: flex;
+            width: 21.1875rem;
+            height: 19.9375rem;
+            flex-direction: column;
+            align-items: center;
+            .titleIcons{
+                font-family: "Poppins", sans-serif;
+                font-size: 23px;
+                font-weight: 500;
+                line-height: 34.5px;
+                text-align: center;
+                width: 88px;
+                height: 35px;
+                top: 10px;    
+            }
+            .parrapfIcon{
+                position: relative;
+                width: 339px;
+                height: 207px;
+                top: 1.375rem;
+                font-family: "Poppins", sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 22.5px;
+                text-align: center;
+    
+            }
+        }
+        
+    }
+    .imgTalent{
+
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3.125rem;
+        .imgLeft{
+            position: relative;
+           
+        }
+        .talent{
+            position: absolute;
+            width:  119px;
+            height: 41px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            background: #AE60D6;
+            padding: 6px 18px 6px 18px;
+            border-radius: 1.25rem;
+            border: none;
+            color: white;
+            font-family: Poppins;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 28.5px;
+            text-align: center;
+        }
+        .imgRigth{
+            
+            position: relative;
+        }
+        .empresas{
+            position: absolute;
+            width:  fit-content;
+            height: 41px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            background: #AE60D6;
+            padding: 6px 18px 6px 18px;
+            border-radius: 1.25rem;
+            border: none;
+            color: white;
+            font-family: Poppins;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 28.5px;
+            text-align: center;
+
+        }
+        img{
+            width: 40rem;
+            height: 25.625rem;
+        }
+        
+    }
+    .rrhhPink{
+        width: 100%;
+        height: 25.6875rem;
+        background-color: rgba(251, 210, 246, 0.5);
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        
+        .textLeft{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: start;
+            width: 43.75rem;
+            height: 18.75rem;
+            font-family: Poppins;
+            font-size: 40px;
+            font-weight: 600;
+            left: 2.8125rem;
+        }
+        .textSpan{
+            font-family: Poppins;
+            font-size: 32px;
+            font-weight: 400;
+            
+            text-align: left;
+            
+        }
+        .textRigth{
+            width: 32.5rem;
+            height: 7.25rem;
+            font-family: Poppins;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 28.5px;
+            text-align: left;
+
+        }
+    }
+    .sectionEnvioCv{
+        width: 100%;
+        height: 31.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url("../../../img/FotoJet.webp");
+        background-size: cover;
+        background-position: center;
+        gap: 1.25rem;
+        .textTalent{
+            padding-left: 4.375rem;
+            width: 80%;
+
+            color: white;
+            font-family: Poppins;
+            font-size: 2.875rem;
+            font-weight: 400;
+            line-height: 3.3438rem;
+            text-align: left;
+            z-index: 2;
+        }
+        .spanTalent{
+            font-family: Poppins;
+            font-size: 2.875rem;
+            font-weight: 600;
+            line-height: 3.3438rem;
+            text-align: left;
+            
+        }
+        .sendEmail{
+            position: relative;
+            display: flex;
+            align-items: center;
+            border: none;
+            left: 70px;
+            width: 168px;
+            height: 52px;
+            padding: 6px 18px 6px 18px;
+            gap: 10px;
+            border-radius: .625rem;
+            opacity: 0px;
+            background-color: #AE60D6;
+            font-family: Poppins;
+            font-size: 19px;
+            font-weight: 500;
+            line-height: 28.5px;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            z-index: 2;
+
+        }
+
+    }
+    .sectionEnvioCv::after{
+        background: rgba(12, 12, 12, 0.3);
+        z-index: 1;
+        width: 100%;
+        height: 37.5rem;
+        position: absolute;
+        content: "";
+        height: 31rem;
+    }
+    
+    
+}  
+
+
+
+@media (max-width: 82.5rem){
+    .homeContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .imgTalent{
+            
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            
+            .imgLeft{
+                width: 100%;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+               
+            }
+            .talent{
+                position: absolute;
+                width:  119px;
+                height: 41px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+                background: #AE60D6;
+                padding: 6px 18px 6px 18px;
+                border-radius: 1.25rem;
+                border: none;
+                color: white;
+                font-family: Poppins;
+                font-size: 19px;
+                font-weight: 500;
+                line-height: 28.5px;
+                text-align: center;
+            }
+            .imgRigth{
+                position: relative;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .empresas{
+                position: absolute;
+                width:  fit-content;
+                height: 41px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+                background: #AE60D6;
+                padding: 6px 18px 6px 18px;
+                border-radius: 1.25rem;
+                border: none;
+                color: white;
+                font-family: Poppins;
+                font-size: 19px;
+                font-weight: 500;
+                line-height: 28.5px;
+                text-align: center;
+    
+            }
+            img{
+                width: 90%;
+                height: 70%;
+            }
+            
+        }
+        .rrhhPink{
+            width: 100%;
+            height: 25.6875rem;
+            background-color: rgba(251, 210, 246, 0.5);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .textLeft{
+                width: 37.5rem;
+                height: 7.25rem;
+                font-family: Poppins;
+                font-size: 1.75rem;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                padding: .625rem;
+                line-height: 1.5;
+                
+            }
+            .textSpan{
+                font-family: Poppins;
+                font-size: 1.75rem;
+                font-weight: 400;
+                line-height: 60px;
+                text-align: left;
+                line-height: 1.5;
+            }
+            .textRigth{
+                width: 32.5rem;
+                height: 7.25rem;
+                font-family: Poppins;
+                font-size: 1.1875rem;
+                font-weight: 400;
+                text-align: left;
+                padding: .625rem;
+            }
+        }    
+    }
+    
+}
+
+@media (max-width: 63.75rem){
+    .homeContainer{
+        .sectionHands{
+            width: 100%;
+            height: 37.5rem;
+            background-image: url("../../../img/personas-reunidas-centro-comunitario.webp");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            
+            .liderando{
+                width: 100%;
+                height: 69px;
+                font-size: 2.875rem;
+                color: #FBD2F6;
+                font-family: "Poppins", sans-serif;
+                font-weight: 600;
+                padding: 1.5625rem;
+            }
+            .spanTransform{
+                color: white;
+            }
+        }
+        .sectionMision{
+            display: flex;
+            width: 100%;
+            height: 31.25rem;
+            justify-content: space-around;
+            align-items: center;
+            .sectionText{
+                display: flex;
+                width: 80%;
+                height: 19.9375rem;
+                flex-direction: column;
+                align-items: center;
+                .titleIcons{
+                    font-family: "Poppins", sans-serif;
+                    font-size: 1.3125rem;
+                    font-weight: 500;
+                    line-height: 2.1563rem;
+                    text-align: center;
+                    width: 88px;
+                    height: 35px;
+                }
+                .parrapfIcon{
+                    width: 90%;
+                    height: 100%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 22.5px;
+                    text-align: center;
+                }
+            }
+        
+        }
+        .sectionPink{
+            width: 100%;
+            height: 30.125rem;
+            background-color: rgba(251, 210, 246, 0.5);
+            display: flex;
+            align-items: center;
+            padding-left: 4.375rem;
+            .parrapfPink{
+                font-size: 2.5rem;
+                width: 43.75rem;
+                height: 18.75rem;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+            }
+            .spanPink{
+                font-weight: 600;
+                line-height: 3.75rem;
+                text-align: left;
+            }
+        }
+         .rrhhPink{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(251, 210, 246, 0.5);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            .textLeft{
+    
+                width: 90%;
+                height: 10%;
+                font-family: Poppins;
+                font-size: 1.5rem;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                line-height: 1.5;
+                
+            }
+            .textSpan{
+                font-family: Poppins;
+                font-size: 1.5rem;
+                font-weight: 400;
+                line-height: 60px;
+                text-align: left;
+                line-height: 1.5;
+            }
+            .textRigth{
+                width: 90%;
+                height: 100%;
+                font-family: Poppins;
+                font-size: .9375rem;
+                font-weight: 400;
+                line-height: 28.5px;
+                text-align: left;
+                margin: .625rem;
+    
+            }
+        }
+        .rrhhPink{
+            width: 100%;
+            height: 25.6875rem;
+            background-color: rgba(251, 210, 246, 0.5);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            .textLeft{
+                width: 37.5rem;
+                height: 7.25rem;
+                font-family: Poppins;
+                font-size: 1.75rem;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                padding: .625rem;
+                line-height: 1.5;
+                
+            }
+            .textSpan{
+                font-family: Poppins;
+                font-size: 1.75rem;
+                font-weight: 400;
+                line-height: 60px;
+                text-align: left;
+                line-height: 1.5;
+            }
+            .textRigth{
+                width: 32.5rem;
+                height: 7.25rem;
+                font-family: Poppins;
+                font-size: 1.1875rem;
+                font-weight: 400;
+                text-align: left;
+                padding: .625rem;
+            }
+        }   
+    }
+}
+
+@media (max-width: 48rem){
+    .homeContainer{
+        .sectionHands{
+            width: 100%;
+            height: 37.5rem;
+            background-image: url("../../../img/personas-reunidas-centro-comunitario.webp");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .liderando{
+                width: 100%;
+                height: fit-content;
+                font-size: 2.25rem;
+                color: #FBD2F6;
+                font-family: "Poppins", sans-serif;
+                font-weight: 600;
+                padding: 1.5625rem;
+                z-index: 2;
+            }
+            .spanTransform{
+                color: white;
+            }
+        }
+        .sectionPink{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(251, 210, 246, 0.5);
+            display: flex;
+            align-items: center;
+            padding-left: .625rem;
+            margin: 0;
+            .parrapfPink{
+                font-size: 1.5rem;
+                width: 95%;
+                height: 100%;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                padding: .625rem;
+                line-height: 1.5;
+            }
+            .spanPink{
+                font-weight: 600;
+                line-height: 3.75rem;
+                text-align: left;
+                line-height: 1.5;
+            }
+        }
+        .sectionMision{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 1.875rem;
+            gap: 1.875rem;
+            .sectionText{
+                display: flex;
+                width: 21.1875rem;
+                height: fit-content;
+                flex-direction: column;
+                align-items: center;
+                .titleIcons{
+                    font-family: "Poppins", sans-serif;
+                    font-size: 23px;
+                    font-weight: 500;
+                    line-height: 34.5px;
+                    text-align: center;
+                    width: 88px;
+                    height: 35px;   
+                }
+                .parrapfIcon{
+                    width: 339px;
+                    height: fit-content;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 22.5px;
+                    text-align: center;
+        
+                }
+                img{
+                    width: 2.5rem;
+                }
+                
+            }
+            
+        }
+        .imgTalent{
+
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 3.125rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.25rem;
+            .imgLeft{
+                position: relative;
+               width: 100%;
+               
+            }
+            .talent{
+                position: absolute;
+                width:  119px;
+                height: 41px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+                background: #AE60D6;
+                padding: 6px 18px 6px 18px;
+                border-radius: 1.25rem;
+                border: none;
+                color: white;
+                font-family: Poppins;
+                font-size: 19px;
+                font-weight: 500;
+                line-height: 28.5px;
+                text-align: center;
+            }
+            .imgRigth{
+                
+                position: relative;
+                width: 100%;
+                
+            }
+            .empresas{
+                position: absolute;
+                width:  fit-content;
+                height: 41px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+                background: #AE60D6;
+                padding: 6px 18px 6px 18px;
+                border-radius: 1.25rem;
+                border: none;
+                color: white;
+                font-family: Poppins;
+                font-size: 19px;
+                font-weight: 500;
+                line-height: 28.5px;
+                text-align: center;
+    
+            }
+            img{
+                width: 80%;
+
+            }
+            
+        }
+        .rrhhPink{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(251, 210, 246, 0.5);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            .textLeft{
+    
+                width: 90%;
+                height: 10%;
+                font-family: Poppins;
+                font-size: 1.5rem;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                line-height: 1.5;
+                
+            }
+            .textSpan{
+                font-family: Poppins;
+                font-size: 1.5rem;
+                font-weight: 400;
+                line-height: 60px;
+                text-align: left;
+                line-height: 1.5;
+            }
+            .textRigth{
+                width: 90%;
+                height: 100%;
+                font-family: Poppins;
+                font-size: .9375rem;
+                font-weight: 400;
+                line-height: 28.5px;
+                text-align: left;
+                margin: .625rem;
+    
+            }
+        }
+        .sectionEnvioCv{
+            width: 100%;
+            height: 31rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-image: url("../../../img/FotoJet.webp");
+            background-size: cover;
+            background-position:80% 10% ;
+            background-repeat: no-repeat;
+            gap: 3.125rem;
+            
+            .textTalent{
+                padding-left: 1.25rem;
+                width: 90%;
+                color: white;
+                font-family: Poppins;
+                font-size: 1.875rem;
+                font-weight: 400;
+                line-height: 3.3438rem;
+                text-align: left;
+                line-height: 1.5;
+            }
+            .spanTalent{
+                width: 100%;
+                font-family: Poppins;
+                font-size: 1.875rem;
+                font-weight: 600;
+                line-height: 3.3438rem;
+                text-align: left;
+                line-height: 1.5;
+            }
+            .sendEmail{
+                display: flex;
+                position: relative;
+                left: 1.25rem;
+                align-items: center;
+                width: 100%;
+                border: none;
+                width: 168px;
+                height: 52px;
+                padding: 6px 18px 6px 18px;
+                gap: 10px;
+                border-radius: .625rem;
+                opacity: 0px;
+                background-color: #AE60D6;
+                font-family: Poppins;
+                font-size: 1rem;
+                font-weight: 500;
+                line-height: 28.5px;
+                text-align: center;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+@media (max-width: 21.25rem){
+    .homeContainer{
+        .sectionHands{
+            width: 100%;
+            height: 37.5rem;
+            background-image: url("../../../img/personas-reunidas-centro-comunitario.webp");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .liderando{
+                width: 100%;
+                height: 69px;
+                font-size: 2.25rem;
+                color: #FBD2F6;
+                font-family: "Poppins", sans-serif;
+                font-weight: 600;
+                padding: 1.5625rem;
+                z-index: 2;
+            }
+            .spanTransform{
+                color: white;
+            }
+        }
+        .sectionHands::after {
+            background: radial-gradient(50% 50% at 50% 50%, rgba(3, 3, 3, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
+            z-index: 1;
+            width: 100%;
+            height: 37.5rem;
+            position: absolute;
+            content: "";
+        }
+        
+        .sectionPink{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(251, 210, 246, 0.5);
+            padding: 0;
+            .parrapfPink{
+                font-size: 1.25rem;
+                width: 100%;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                line-height: 1.5;
+            }
+            .spanPink{
+                font-weight: 600;
+                line-height: 3.75rem;
+                text-align: left;
+                line-height: 1.5;
+            }
+        }
+        .sectionMision{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: .625rem;
+            gap: 1.25rem;
+            .sectionText{
+                display: flex;
+                width: 90%;
+                height: 100%;
+                flex-direction: column;
+                align-items: center;
+                margin: 1.25rem;
+                img{
+                    width: 2.5rem;
+                }
+                .titleIcons{
+                    font-family: "Poppins", sans-serif;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 34.5px;
+                    text-align: center;
+                    width: 88px;
+                    height: 35px;   
+                }
+                .parrapfIcon{
+                    width: 100%;
+                    height: 100%;
+                    font-family: "Poppins", sans-serif;
+                    font-size: .75rem;
+                    font-weight: 400;
+                    line-height: 22.5px;
+                    text-align: center;
+        
+                }
+            }
+            
+            
+        }
+        .imgTalent{
+
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin: 3.125rem 0 3.125rem 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.25rem;
+            .imgLeft{
+                position: relative;
+               width: 100%;
+               button{
+                display: flex;
+               align-items: center;
+               justify-content: center;
+               }
+            }
+            .talent{
+                position: absolute;
+                width:  6.9375rem;
+                height: 2.1875rem;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+                background: #AE60D6;
+                padding: 6px 18px 6px 18px;
+                border-radius: 1.25rem;
+                border: none;
+                color: white;
+                font-family: Poppins;
+                font-size: .9375rem;
+                font-weight: 500;
+                line-height: 28.5px;
+                text-align: center;
+            }
+            .imgRigth{
+                
+                position: relative;
+                width: 100%;
+                height: 100%;
+                button{
+                    display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   }
+            }
+            .empresas{
+                position: absolute;
+                width:  6.9375rem;
+                height: 2.1875rem;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+                background: #AE60D6;
+                padding: 6px 18px 6px 18px;
+                border-radius: 1.25rem;
+                border: none;
+                color: white;
+                font-family: Poppins;
+                font-size: .9375rem;
+                font-weight: 500;
+                line-height: 28.5px;
+                text-align: center;
+    
+            }
+            img{
+                width: 80%;
+
+            }
+            
+        }
+        .rrhhPink{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(251, 210, 246, 0.5);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            .textLeft{
+    
+                width: 90%;
+                height: 10%;
+                font-family: Poppins;
+                font-size: 1.25rem;
+                font-weight: 600;
+                line-height: 60px;
+                text-align: left;
+                line-height: 1.5;
+                
+            }
+            .textSpan{
+                font-family: Poppins;
+                font-size: 1.25rem;
+                font-weight: 400;
+                line-height: 60px;
+                text-align: left;
+                line-height: 1.5;
+            }
+            .textRigth{
+                width: 90%;
+                height: 100%;
+                font-family: Poppins;
+                font-size: .9375rem;
+                font-weight: 400;
+                line-height: 28.5px;
+                text-align: left;
+                margin: .625rem;
+    
+            }
+        }
+        .sectionEnvioCv{
+            width: 100%;
+            height: 31rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-image: url("../../../img/FotoJet.webp");
+            background-size: cover;
+            background-position:80% 10% ;
+            background-repeat: no-repeat;
+            gap: 3.125rem;
+            .textTalent{
+                padding-left: .625rem;
+                width: 95%;
+                color: white;
+                font-family: Poppins;
+                font-size: 1.25rem;
+                font-weight: 400;
+                line-height: 3.3438rem;
+                text-align: left;
+                line-height: 1.5;
+                z-index: 2;
+            }
+            .spanTalent{
+                font-family: Poppins;
+                font-size: 1.25rem;
+                font-weight: 600;
+                line-height: 3.3438rem;
+                text-align: left;
+                line-height: 1.5;
+            }
+            .sendEmail{
+                position: relative;
+                left: .625rem;
+                display: flex;
+                border: none;
+                width: 7.125rem;
+                height: 2.375rem;
+                padding: 6px 18px 6px 18px;
+                gap: 10px;
+                border-radius: .625rem;
+                opacity: 0px;
+                background-color: #AE60D6;
+                font-family: Poppins;
+                font-size: .5rem;
+                font-weight: 600;
+                line-height: 28.5px;
+                text-align: center;
+                color: white;
+                cursor: pointer;
+                z-index: 2;
+                
+            }
+           
+        }
+        .sectionEnvioCv::after{
+            background: rgba(12, 12, 12, 0.3);
+            z-index: 1;
+            width: 100%;
+            height: 37.5rem;
+            position: absolute;
+            content: "";
+            height: 31rem;
+        }
+    }
+}

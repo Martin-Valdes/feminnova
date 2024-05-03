@@ -1,0 +1,15 @@
+.spanTransform{
+    color: red;
+    font-weight: 400;
+}
+.liderando{
+    width: 100%;
+    height: 69px;
+    font-size: 2.875rem;
+    color: #FBD2F6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-left: 16.25rem;
+    padding-top: 5rem;
+    z-index: 2;
+}
